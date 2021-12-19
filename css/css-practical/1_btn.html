@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../feather-icons-web/feather.css">
+    <link rel="stylesheet" href="../fontawesome-free-5.15.4-web 2/css/all.min.css">
+    <style>
+
+        *{
+            font-family: 'Raleway', sans-serif;
+        }
+
+
+        .btn{
+
+            display: inline-block;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 2px solid black;
+            font-size: 15px;
+        }
+
+        .btn-primary{
+            background-color: #775ada;
+            border-color: #775ada;
+        }
+
+        .btn-secondary{
+
+            background-color: #28c7fa;
+            border-color: #28c7fa;
+
+        }
+
+        .btn-success{
+            background-color: #2cb978;
+            border-color: #2cb978;
+        }
+
+        .btn-danger{
+            background-color: #f5587b;
+            border-color: #f5587b;
+        }
+
+        
+        .btn-outline-primay{
+            border-color: #775ada;
+            background-color: white;
+            color: #775ada;
+        }
+        .btn-outline-primay:hover{
+            background-color: #775ada;
+            border-color: #775ada;
+            color: white;
+        }
+
+        .btn-outline-danger{
+             border-color: #f5587b;
+            background-color: white;
+            color: #f5587b;
+        }
+
+        .btn-outline-danger:hover{
+            background-color: #f5587b;
+            border-color: #f5587b;
+            color: white;
+        }
+
+        .rounded{
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <a href="#" class="btn btn-primary">First Btn</a>
+    <button class="btn btn-secondary rounded">Second Btn</button>
+    <a href="#" class="btn btn-success">Read More</a>
+    <a href="#" class="btn btn-danger">Detail</a>
+    <hr>
+    <a href="#" class="btn btn-outline-primay">Read More</a>
+    <a href="#" class="btn btn-outline-danger rounded">Detail</a>
+    <hr>
+    <button class="btn btn-secondary">
+        <i class=" feather-home"></i>
+    </button>
+    <a href="#" class="btn btn-success rounded">
+        <i class="fas fa-home"></i>
+    </a>
+    <hr>
+
+
+
+    
+</body>
+</html>

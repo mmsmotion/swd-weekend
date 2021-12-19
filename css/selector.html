@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        li{
+            background-color: black;
+            color: white;
+        }
+        li:hover{
+            background-color: grey;
+        }
+
+        li:active{
+            background-color: orange;
+        }
+
+        span::before{
+            content: "ABCD ";
+            color: red;
+        }
+
+        span::after{
+            content: " XYZ";
+            color: blue;
+        }
+
+        a[target='_blank']{
+            background-color: yellow;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+
+    <h1>
+        <span>Min Ga Lar Par</span>
+    </h1>
+
+
+    <ul>
+        <li>one</li>
+        <li>one</li>
+        <li>one</li>
+    </ul>
+
+    <ol>
+        <li>two</li>
+        <li>two</li>
+        <li>two</li>
+        <li>two</li>
+    </ol>
+
+    <a href="#" target="_self">Google</a>
+    <a href="#" target="_blank">YouTube</a>
+    <a href="#" >Facebook</a>
+
+
+    <form action="">
+        <input type="text">
+        <input type="number">
+        <input type="date">
+    </form>
+    
+</body>
+</html>
